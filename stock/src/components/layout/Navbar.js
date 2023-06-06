@@ -9,20 +9,14 @@ function Navbar(){
         <nav className={styles.navbar}>
             <Container>
                 <Link to="/">
-                    <img src={logo} alt="Costs" />
+                    <img src={logo} alt="Costs"/>
                 </Link>
                 <ul className={styles.list}>
                     <li className={styles.item}>
                     <Link to="/">Home</Link>
                     </li>
                     <li className={styles.item}>
-                    <Link to="/Projects">Projetos</Link>
-                    </li>
-                    <li className={styles.item}>
-                    <Link to="/Empresa">Empresa</Link>
-                    </li>
-                    <li className={styles.item}>
-                    <Link to="/Contato">Contato</Link>
+                    <RealTime/>
                     </li>
                 </ul>
             </Container>
